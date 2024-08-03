@@ -1,0 +1,32 @@
+OBJECTIVE
+1.b. 2.C  3.B
+4.C  5.D  6.D
+7.A  8.D  9.C
+10.A. 11.D
+
+THEORY
+Git is a version control system used to manage and track changes in computer files mainly codes for projects
+ 
+WHY GIT IS IMPORTANT
+1. Git records every change made to files in your project
+2.Multiple people can work on the same project simultaneously without causing conflicts
+3.When changes from different branches are ready. Git can merge them together
+4.Branches allow you to create separate copies of your project to work on without affecting the main project
+
+Follow these steps
+Sign up (if you do not have an account on git) / Log into your GitHub
+Click on the "+" ICON and click on "NEW REPOSITORY"
+A new page will appear. Type in your name and add description if necessary
+Choose either public or private
+Now move to your terminal
+Navigate to your desktop using "cd desktop"
+Create a new directory with a name eg mkdir githubprojects
+Then you create a file like this eg touch file.txt
+Now we will initiate git
+Initialise git with this "git init"
+Add the file we created to git with this eg git add file.txt
+Commit the changes with git commit -m "commit message" eg git commit -m "first git project"
+Link your  file to your GitHub repository like this type (git remote add origin https:/github.com/username/repo-nname.git) on your git
+Now push your file to GitHub like this git push -u origin main
+Check your GitHub to confirm if the file has been pushed
+
